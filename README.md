@@ -10,6 +10,8 @@ ReactJS Basic Resume Generator which will generate customized Resume in few minu
 
 # Team - Xoraz
 
+![Screenshot from 2023-01-21 12-28-03](https://user-images.githubusercontent.com/97084090/213860794-27d7f7d7-d233-497e-be30-271abe708b66.png)
+
 Team Member-
 
 - Ayush Sachan
