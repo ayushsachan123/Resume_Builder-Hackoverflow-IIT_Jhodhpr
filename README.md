@@ -1,32 +1,42 @@
-# ResumeGen
-ReactJS Basic Resume Generator which will generate customized Resume in few minutes on your requirements.
-Live resume editor.
 
-[Visit Now](https://resumegenx.netlify.app/) 🚀
+# Fine Resume - A resume builder application
 
-## 🖥️ Tech Stack
+ReactJS Resume Generator which will generate customized Resume in few minutes on your requirements. Live resume editor.
 
-![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![chakraui](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)&nbsp;
+![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=react) ![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=javascript) ![Made-With-Chakra_UI](https://img.shields.io/badge/Made_with-Chakra_UI-informational?style=for-the-badge&logo=Chakra-UI)
 
-Extras: React-To-Print
+1. **React** for Frontend and **Express** as Middleware.
+2. **Chakra UI** and **React-Bootstrap** for styling.
 
-**Deployed On:**
+# Team - Xoraz
 
-![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+Team Member-
 
-## Sneak  Peek of Home Page 🙈 :
-![screencapture-resumegenx-netlify-app-2022-01-18-16_24_49](https://user-images.githubusercontent.com/64949957/159115311-42275489-8fbe-4d80-9f7c-4d308d9287ce.png)
-![smartmockups_kyk0u3hp](https://user-images.githubusercontent.com/64949957/159115313-ae8bf72c-2a79-425d-8520-32b6ba3e0fcf.jpg)
+- Ayush Sachan
+- Shubham Jaiswal
+- Siddh Srivastava
+- Sitanshu Mishra
 
+# Demo
 
-<h2>📬 Contact</h2>
-
-If you want to contact me, you can reach me through below handles.
-
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
-
-© 2022 Jigar Sable
+https://user-images.githubusercontent.com/97084090/213860987-a089a905-0b3e-44ed-b592-327e5367ee66.mp4
+![Screenshot from 2023-01-21 12-28-03](https://user-images.githubusercontent.com/97084090/213860794-27d7f7d7-d233-497e-be30-271abe708b66.png)
+![Screenshot from 2023-01-21 14-10-17](https://user-images.githubusercontent.com/97084090/213860662-656a9824-c310-41ee-b2fb-c97e4db724fc.png)
+![Screenshot from 2023-01-21 14-10-39](https://user-images.githubusercontent.com/97084090/213860666-f9261394-6576-4ff1-9da1-071cbd9c18f7.png)
+![Screenshot from 2023-01-21 14-15-03](https://user-images.githubusercontent.com/97084090/213860671-c935bd90-a804-4190-b845-32c9a16fee58.png)
+![WhatsApp Image 2023-01-21 at 2 17 08 PM](https://user-images.githubusercontent.com/97084090/213860672-1171dd7f-6e91-45b7-b999-29326d0e1ae6.jpeg)
 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+## Quick Start
+
+Clone the repository and do following:
+
+```bash
+# Install dependencies for server
+npm install
+
+# Install dependencies for client
+npm run client-install
+
+# Run in local machine
+npm start
