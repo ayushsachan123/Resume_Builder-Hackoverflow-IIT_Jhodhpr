@@ -18,16 +18,17 @@ const Home =() =>{
                             <a href="#" className="menu__link active">Resume Template</a>
                         </li>
                         <li className="menu__item">
-                            <a href="#" className="menu__link">Builder Dashboard</a>
+                            {/* <a href="#" className="menu__link">Builder Dashboard</a> */}
+                            <a className="btn" class="menu__link" onClick={()=>{navigate(`/resume-builder`)}}>Builder Dashboard</a> 
                         </li>
                         <li className="menu__item">
-                            <a href="#" className="menu__link">Contact</a>
+                            <a href="#test1" className="menu__link">Contact</a>
                         </li>
                         <li className="menu__item">
-                            <a href="#" className="menu__link">About</a>
+                            <a href="#about1" className="menu__link">About</a>
                         </li>
                         <li className="menu__item">
-                            <a href="#" className="menu__link">FAQ</a>
+                            <a href="#test" className="menu__link">FAQ</a>
                         </li>
                     </ul>
                     <div className="header__signup">
@@ -54,7 +55,8 @@ const Home =() =>{
                     <p className="hero__description">
                    Build Your Desirable And Attractive Resume And Get Yourself Placed At Top-Tier Companies Like Amazon, Mircrosoft etc.
                     </p>
-                    <a href="#" className="btn btn__hero">Create Resume</a>
+                    {/* <a href="#" className="btn btn__hero">Create Resume</a> */}
+                    <a className="btn btn__hero" onClick={()=>{navigate(`/login`)}}>Create Resume</a>
                 </div>
 
                     <div className="img2">
@@ -178,7 +180,7 @@ const Home =() =>{
 
         </section>
 
-        <section className="testimonials">
+        <section id="test"className="testimonials">
             <div className="testimonials__content">
                 <div className="testimonials__head w-105">
 
@@ -272,34 +274,36 @@ const Home =() =>{
             </div>
         </section>
 
-        <section className="farm-invest w-105">
-            <h2 className="farm-invest__title">Write Your <span>EMAIL ID</span> to us. </h2>
+        <section id="test1" className="farm-invest w-105">
+            <h2 className="farm-invest__title">Write Your <span>Query</span> to us. </h2>
             <a href="mailto:siddhansh1232003@gmail.com" className="btn btn__farm--invest">Email Id</a>
-
+           
         </section>
 
         <footer className="footer">
+            
             <div className="footer__body w-105"/>
 
             <div className="footer__bottom">
+            <h1 id="about1"className="about">About Us</h1>
                 <div className="footer__bottom__content w-105">
+                    
+                <h3>Our mission is to help job seekers grow careers.
+                      We love helping people stand out in their job search and get hired faster.
+                      We’ve helped over successfully build job-winning resumes, as well as helping countless others win jobs at elite companies.</h3>
                     <div className="footer__logo imgg">
                         <img src="imagess/logof.png" alt="Logo"/>
                     </div>
-                    <p className="footer_copyright">
-                        © 2023 Fine Resume. Designed By Team-Zorax
-                    </p>
+                    
                 </div>
+                <p className="footer_copyright">
+                        © 2023 Fine Resume. Designed By Team-Xoraz
+                    </p>
                 <img src="imagess/purple_mountainedited.png" alt="Mountain" className="footer_img"/>
             </div>
         </footer>
     </div>
-    </div>);
-       
-
-        
-       
-    
+    </div>);  
 
 }
 export default Home;
