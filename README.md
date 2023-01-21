@@ -1,5 +1,5 @@
 
-# Find Resume - A resume builder application
+# Fine Resume - A resume builder application
 
 ReactJS Basic Resume Generator which will generate customized Resume in few minutes on your requirements. Live resume editor.
 
@@ -33,5 +33,13 @@ npm start
 
 ## Demo :
 
-Click [this](https://youtu.be/) link to see the demo.
+
+![Screenshot from 2023-01-21 12-28-03](https://user-images.githubusercontent.com/97084090/213860657-9953a631-c99c-49ae-a8a9-ce2dbf463f9e.png)
+![Screenshot from 2023-01-21 14-10-17](https://user-images.githubusercontent.com/97084090/213860662-656a9824-c310-41ee-b2fb-c97e4db724fc.png)
+![Screenshot from 2023-01-21 14-10-39](https://user-images.githubusercontent.com/97084090/213860666-f9261394-6576-4ff1-9da1-071cbd9c18f7.png)
+![Screenshot from 2023-01-21 14-15-03](https://user-images.githubusercontent.com/97084090/213860671-c935bd90-a804-4190-b845-32c9a16fee58.png)
+![WhatsApp Image 2023-01-21 at 2 17 08 PM](https://user-images.githubusercontent.com/97084090/213860672-1171dd7f-6e91-45b7-b999-29326d0e1ae6.jpeg)
+
+
+https://user-images.githubusercontent.com/97084090/213860673-708b786f-8db7-469c-85c7-ce823c11b405.mp4
 
