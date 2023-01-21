@@ -1,32 +1,37 @@
-# ResumeGen
-ReactJS Basic Resume Generator which will generate customized Resume in few minutes on your requirements.
-Live resume editor.
 
-[Visit Now](https://resumegenx.netlify.app/) 🚀
+# Find Resume - A resume builder application
 
-## 🖥️ Tech Stack
+ReactJS Basic Resume Generator which will generate customized Resume in few minutes on your requirements. Live resume editor.
 
-![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![chakraui](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)&nbsp;
+![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=react) ![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=javascript) ![Made-With-Chakra_UI](https://img.shields.io/badge/Made_with-Chakra_UI-informational?style=for-the-badge&logo=Chakra-UI)
 
-Extras: React-To-Print
+1. **React** for Frontend and **Express** as Middleware.
+2. **Chakra UI** and **React-Bootstrap** for styling.
 
-**Deployed On:**
+# Team - Xoraz
 
-![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+Team Member-
 
-## Sneak  Peek of Home Page 🙈 :
-![screencapture-resumegenx-netlify-app-2022-01-18-16_24_49](https://user-images.githubusercontent.com/64949957/159115311-42275489-8fbe-4d80-9f7c-4d308d9287ce.png)
-![smartmockups_kyk0u3hp](https://user-images.githubusercontent.com/64949957/159115313-ae8bf72c-2a79-425d-8520-32b6ba3e0fcf.jpg)
+- Ayush Sachan
+- Shubham Jaiswal
+- Siddh Srivastava
+- Sitanshu Mishra
 
+## Quick Start
 
-<h2>📬 Contact</h2>
+Clone the repository and do following:
 
-If you want to contact me, you can reach me through below handles.
+```bash
+# Install dependencies for server
+npm install
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+# Install dependencies for client
+npm run client-install
 
-© 2022 Jigar Sable
+# Run in local machine
+npm start
 
+## Demo :
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+Click [this](https://youtu.be/) link to see the demo.
+
