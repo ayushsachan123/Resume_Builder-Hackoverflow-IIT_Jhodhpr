@@ -1,35 +1,35 @@
-
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import './login.css';
 const Login = () => {
     let navigate = useNavigate(); 
     return (
         <div>
-              <div class="wrapper">
+              <div className="wrapper">
     <header>Login Form</header>
     <form action="#">
-      <div class="field email">
-        <div class="input-area">
+      <div className="field email">
+        <div className="input-area">
           <input type="text" placeholder="Email Address"/>
-          <i class="icon fas fa-envelope"></i>
-          <i class="error error-icon fas fa-exclamation-circle"></i>
+          <i className="icon fas fa-envelope"></i>
+          <i className="error error-icon fas fa-exclamation-circle"></i>
         </div>
-        <div class="error error-txt">Email can't be blank</div>
+        <div className="error error-txt">Email can't be blank</div>
       </div>
-      <div class="field password">
-        <div class="input-area">
+      <div className="field password">
+        <div className="input-area">
           <input type="password" placeholder="Password"/>
-          <i class="icon fas fa-lock"></i>
-          <i class="error error-icon fas fa-exclamation-circle"></i>
+          <i className="icon fas fa-lock"></i>
+          <i className="error error-icon fas fa-exclamation-circle"></i>
         </div>
-        <div class="error error-txt">Password can't be blank</div>
+        <div className="error error-txt">Password can't be blank</div>
       </div>
-      <div class="pass-txt"><a href="#">Forgot password?</a></div>
-      <input type="submit" value="Login"/>
+      <div className="pass-txt"><a href="#">Forgot password?</a></div>
+      { <input type="submit" onClick={()=>{navigate(`/resume-builder`)}} value="Login"/> }
     </form>
-    <div class="sign-txt">Not yet member? <a href="#">Signup now</a></div>
+    <div className="sign-txt">Not yet member? <a href="#">Signup now</a></div>
   </div>
-        <a className="btn " onClick={()=>{navigate(`/resume-builder`)}}>Go to Resume Builder</a>
+        {/* <a className="btn " onClick={()=>{navigate(`/resume-builder`)}}>Go to Resume Builder</a> */}
         </div>
     )
 }

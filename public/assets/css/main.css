@@ -1196,3 +1196,10 @@ header {
   /*End Farm Invest*/
 }
 /*# sourceMappingURL=main.css.map */
+
+.about{
+  text-align: center;
+  font-weight:500;
+  font-size: 3rem;
+  
+}
