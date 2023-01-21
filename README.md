@@ -31,7 +31,8 @@ npm run client-install
 # Run in local machine
 npm start
 
-## Demo :
+# Demo :
+![Screenshot from 2023-01-21 12-28-03](https://user-images.githubusercontent.com/97084090/213860735-75f59059-7b53-4c3c-baa7-f9a672709d4a.png)
 
 
 ![Screenshot from 2023-01-21 12-28-03](https://user-images.githubusercontent.com/97084090/213860657-9953a631-c99c-49ae-a8a9-ce2dbf463f9e.png)
@@ -40,6 +41,4 @@ npm start
 ![Screenshot from 2023-01-21 14-15-03](https://user-images.githubusercontent.com/97084090/213860671-c935bd90-a804-4190-b845-32c9a16fee58.png)
 ![WhatsApp Image 2023-01-21 at 2 17 08 PM](https://user-images.githubusercontent.com/97084090/213860672-1171dd7f-6e91-45b7-b999-29326d0e1ae6.jpeg)
 
-
-https://user-images.githubusercontent.com/97084090/213860673-708b786f-8db7-469c-85c7-ce823c11b405.mp4
 
