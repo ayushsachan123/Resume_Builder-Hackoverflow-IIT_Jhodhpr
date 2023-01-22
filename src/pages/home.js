@@ -1,3 +1,13 @@
+import {
+    Text,
+    Stack,
+    HStack,
+    Box,
+    Container,
+    IconButton,
+    useColorModeValue
+} from '@chakra-ui/react';
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 const Home =() =>{
@@ -7,27 +17,27 @@ const Home =() =>{
        
        <div className="container">
         <header>
-            <nav className="header__nav w-120">
-                <div className="header__logo">
+            <nav className="header__nav w-120 navchange sticky">
+                <div className="header__logo imga">
                     <img src="/imagess/logof.png" alt="Logo"/>
                 </div>
                 <div className="header__nav__content">
                     <div className="nav-close-icon"></div>
-                    <ul className="header__menu">
-                        <li className="menu__item">
+                    <ul className="header__menu ">
+                        <li className="menu__item linee">
                             <a href="#" className="menu__link active">Resume Template</a>
                         </li>
-                        <li className="menu__item">
+                        <li className="menu__item linee">
                             {/* <a href="#" className="menu__link">Builder Dashboard</a> */}
                             <a className="btn" class="menu__link" onClick={()=>{navigate(`/resume-builder`)}}>Builder Dashboard</a> 
                         </li>
-                        <li className="menu__item">
+                        <li className="menu__item linee">
                             <a href="#test1" className="menu__link">Contact</a>
                         </li>
-                        <li className="menu__item">
+                        <li className="menu__item linee">
                             <a href="#about1" className="menu__link">About</a>
                         </li>
-                        <li className="menu__item">
+                        <li className="menu__item linee">
                             <a href="#test" className="menu__link">FAQ</a>
                         </li>
                     </ul>
@@ -112,14 +122,14 @@ const Home =() =>{
 
                                 Well, here's some good news. If you're applying for an entry-level job or an internship, no one expects you to have ANY work experience.
 
-                                Instead, you should focus on what you DO have: education, projects, volunteering experience, hobbies & interests
+                                Instead, you should focus on what you DO have: education, projects, volunteering experience etc.
                             </p>
                         </div>
 
                     </div>
                     <div className="invest__item">
                         <div className="invest__item__head">
-                            <h3 className="invest__item__subtitle" resummee>What is the Best Resume Template?</h3>
+                            <h3 className="invest__item__subtitle resummee">What is the Best Resume Template?</h3>
                         </div>
                         <div className="invest__item__body">
 
@@ -274,7 +284,7 @@ const Home =() =>{
             </div>
         </section>
 
-        <section id="test1" className="farm-invest w-105">
+        <section id="test1" className="farm-invest w-105 hello">
             <h2 className="farm-invest__title">Write Your <span>Query</span> to us. </h2>
             <a href="mailto:siddhansh1232003@gmail.com" className="btn btn__farm--invest">Email Id</a>
            
@@ -288,7 +298,7 @@ const Home =() =>{
             <h1 id="about1"className="about">About Us</h1>
                 <div className="footer__bottom__content w-105">
                     
-                <h3>Our mission is to help job seekers grow careers.
+                <h3 class="write">Our mission is to help job seekers grow careers.
                       We love helping people stand out in their job search and get hired faster.
                       We’ve helped over successfully build job-winning resumes, as well as helping countless others win jobs at elite companies.</h3>
                     <div className="footer__logo imgg">
@@ -296,14 +306,46 @@ const Home =() =>{
                     </div>
                     
                 </div>
-                <p className="footer_copyright">
-                        © 2023 Fine Resume. Designed By Team-Xoraz
-                    </p>
-                <img src="imagess/purple_mountainedited.png" alt="Mountain" className="footer_img"/>
+                {/* <img src="imagess/purple_mountainedited.png" alt="Mountain" className="footer_img"/> */}
             </div>
         </footer>
     </div>
-    </div>);  
+    <Box
+            bg={useColorModeValue('gray.100', 'gray.900')}
+            color={useColorModeValue('gray.700', 'gray.200')}>
+
+            <Container
+                as={Stack}
+                maxW={'7xl'}
+                py={5}
+                direction={{ base: 'column', md: 'row' }}
+                spacing={4}
+                justify={{ base: 'center', md: 'space-between' }}
+                align={{ base: 'center', md: 'center' }}>
+
+                <Stack direction={{ base: 'column', md: 'row' }} fontWeight={'medium'}>
+                    <Text>&copy; 2023 Fine Resume. Designed By Team-Xoraz</Text>
+                   
+                </Stack>
+
+
+                <Stack direction={'row'} spacing={6}>
+                    <IconButton isRound='true' as={'a'} href={'https://github.com/ayushsachan123'} target='_blank' bg={'gray.300'}>
+                        <FaGithub />
+                    </IconButton>
+                    <IconButton isRound='true' as={'a'} href={'http://www.linkedin.com/in/ayush-sachan-469124234/'} target='_blank' colorScheme={'blue'}>
+                        <FaLinkedin />
+                    </IconButton>
+                    <IconButton isRound='true' as={'a'} href={'https://www.instagram.com/_siddh.s_/'} target='_blank' colorScheme={'pink'}>
+                        <FaInstagram />
+                    </IconButton>
+
+                </Stack>
+
+            </Container>
+        </Box>
+    </div>
+    );  
 
 }
 export default Home;
