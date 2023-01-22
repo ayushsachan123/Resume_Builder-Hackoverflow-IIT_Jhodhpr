@@ -17,11 +17,19 @@ body{
   color: #fff;
   background: #5372F0;
 }
+.head{
+  font-weight:500;
+  font-size:40px;
+}
+.container1{
+background-color: rgba(235, 235, 235, 0.568);
+}
+
 .wrapper{
     margin:auto;
   width: 380px;
-  padding: 40px 30px 50px 30px;
-  background: #fff;
+  padding: 100px 30px 50px 30px;
+  background:#fff;
   border-radius: 5px;
   text-align: center;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
@@ -142,4 +150,8 @@ form input[type="submit"]{
 }
 form input[type="submit"]:hover{
   background: #2c52ed;
+}
+
+.foot{
+  padding-bottom:40%;
 }

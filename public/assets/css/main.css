@@ -38,6 +38,12 @@ a {
 img {
   width: 100%;
   max-width: 100%;
+  margin-bottom: 13px;
+}
+.imga{
+  width: 35%;
+  max-width: 100%;
+  margin-bottom: 13px;
 }
 .imgg{
   width: 30%;
@@ -64,7 +70,7 @@ section {
 }
 
 .btn {
-  border-radius: .5rem;
+  border-radius: 1.0rem;
   padding: 1.2rem;
 }
 
@@ -105,9 +111,13 @@ header {
 .header__menu {
   flex: 4;
   display: flex;
-  grid-gap: 2.5rem;
+  grid-gap: 1rem;
 }
+.linee{
+  
+  margin-right: 30px;
 
+}
 .menu__link {
   cursor: pointer;
   transition: .2s all;
@@ -123,7 +133,7 @@ header {
 }
 
 .header__signup {
-  flex: 4;
+  /* flex: 4; */
   display: flex;
   justify-content: flex-end;
 }
@@ -225,6 +235,11 @@ header {
   transform: rotateZ(-45deg) translate(1rem, 0.5rem);
 }
 
+.navchange{
+background-color:rgb(227, 243, 250);
+height:65px;
+}
+
 /*End Header */
 /*End Hero */
 .hero {
@@ -243,6 +258,8 @@ header {
 
 .hero__title {
   font-size: 4.6rem;
+  font-weight:900;
+  color:#4b3fa7;
 }
 
 .hero__description {
@@ -350,7 +367,8 @@ header {
 
 .opportunities__title {
   font-size: 3.6rem;
-  color: #000000;
+  color: #4b3fa7;
+  font-weight:500;
 }
 
 .opportunities__description {
@@ -418,12 +436,16 @@ header {
 
 .invest__title {
   font-size: 3.6rem;
+  text-align: center;
+  color:#4b3fa7;
+  font-weight:500;
 }
 
 .invest__description {
   margin-top: 1.5rem;
   color: #324148;
   font-size: 1.8rem;
+  text-align:center;
 }
 
 .invest__body {
@@ -435,16 +457,17 @@ header {
 
 .invest__item {
   padding: 2.5rem;
+  border-radius: 2.5rem;
 }
 
 .invest__item:nth-child(1) {
   /* background: url("/imagess/Picture1.png") no-repeat center/cover; */
-  background-color: bisque;
+  background-color: rgb(221, 220, 218);
 }
 
 .invest__item:nth-child(2) {
   /* background: url("/imagess/Picture2.png") no-repeat center/cover; */
-  background-color: bisque;
+  background-color: rgb(221, 220, 218);
 }
 
 .invest__item__subtitle {
@@ -528,10 +551,16 @@ header {
   width: 100%;
 }
 .resources{
-  color: #7161ee;
+  color: #5d5d5e;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20%;
 }
+
 .resummee{
-  color: #000000;
+  color: #062e50;
+  font-size: 20px;
+  text-align:centre;
 }
 
 /*End Invest*/
@@ -540,6 +569,7 @@ header {
   /* background: url("/imagess/chandadhoaihdolf.png") no-repeat; */
   background-color:#7161ee;
   margin: auto;
+  border-radius: 2.5rem;
 }
 
 .works__content {
@@ -547,6 +577,7 @@ header {
   margin: auto;
   color: #ffffff;
   padding: 0 1.5rem;
+  
 }
 
 .works__head {
@@ -629,6 +660,7 @@ header {
   padding: 3rem;
   position: relative;
   align-items: center;
+  border-radius:2.0rem;
 }
 
 .works__step__content::before {
@@ -663,11 +695,13 @@ header {
 /*Testimonials*/
 .testimonials {
   margin-top: 20rem;
+ 
 }
 
 .testimonials__head {
   position: relative;
   margin: auto;
+  
 }
 
 .testimonials__quote {
@@ -681,6 +715,8 @@ header {
 .testimonials__title {
   font-size: 3.6rem;
   max-width: 45rem;
+  text-align:center;
+font-weight: 500;
 }
 
 .testimonials__body {
@@ -689,6 +725,7 @@ header {
   overflow: hidden;
   padding: 2rem 0;
   position: relative;
+
 }
 
 .testimonials__body::before, .testimonials__body::after {
@@ -700,6 +737,7 @@ header {
   opacity: .5;
   height: 100%;
   z-index: 1;
+  
 }
 
 .testimonials__body::before {
@@ -802,6 +840,7 @@ header {
 
 .farm-invest__title {
   font-size: 3.6rem;
+  
 }
 
 .farm-invest__title span {
@@ -1199,7 +1238,22 @@ header {
 
 .about{
   text-align: center;
-  font-weight:500;
+  font-weight:550;
   font-size: 3rem;
-  
+
+}
+
+.write{
+  color:#5d5d5e;
+  text-align:center;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+margin-left:11%;
+} */
+
+.hello{
+  background-color: rgb(233, 240, 240);
 }
