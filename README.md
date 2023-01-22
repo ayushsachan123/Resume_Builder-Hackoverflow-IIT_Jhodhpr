@@ -39,4 +39,3 @@ npm run client-install
 
 # Run in local machine
 npm start
->>>>>>> d10f042f5cae0d1185716abe8dc1dc306f7df022
