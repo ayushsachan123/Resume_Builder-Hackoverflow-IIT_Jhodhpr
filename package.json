@@ -50,6 +50,6 @@
     ]
   },
   "devDependencies": {
-    "mini-css-extract-plugin": "2.7.5"
+    "mini-css-extract-plugin": "2.7.6"
   }
 }
